@@ -1,22 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
-    
-
-
-
-
-
-
-
-
-
+    <header>
+        <h1>Bienvenido/a a nuestra Tienda Virtual</h1>
+    </header>
+    <main>
+        <div class="productos">
+            <div class="producto">
+                <h2>Campera de abrigo</h2>
+                <p class="precio">$40,000</p>
+                <button onclick="comprarProducto(1)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <h2>Remera</h2>
+                <p class="precio">$20,000</p>
+                <button onclick="comprarProducto(2)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <h2>Jeans</h2>
+                <p class="precio">$30,000</p>
+                <button onclick="comprarProducto(3)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <h2>Bermudas</h2>
+                <p class="precio">$25,000</p>
+                <button onclick="comprarProducto(4)">Agregar al carrito</button>
+            </div>
+        </div>
+        <button class="finalizar" onclick="finalizarCompra()">Finalizar compra</button>
+    </main>
+    <footer>
+        <p>Gracias por visitarnos. ¡Vuelva pronto!</p>
+    </footer>
+    <script src="./javascript/script.js"></script>
 </body>
-<script src="./javascript/script.js"></script>
 </html>
+
+
