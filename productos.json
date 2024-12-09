@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Campera de abrigo",
+        "precio": 40000,
+        "rutaImagen": "img/campera.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Remera",
+        "precio": 20000,
+        "rutaImagen": "img/remera.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Jeans",
+        "precio": 30000,
+        "rutaImagen": "img/jean.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Bermudas",
+        "precio": 25000,
+        "rutaImagen": "img/bermuda.jpg"
+    }
+]
